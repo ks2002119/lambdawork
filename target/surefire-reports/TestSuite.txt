@@ -1,0 +1,33 @@
+Discovery starting.
+Discovery completed in 353 milliseconds.
+Run starting. Expected test count is: 21
+NReduceEngineSpec:
+NReduceEngine
+- should execute simple string constant expression (132 milliseconds)
+- should execute simple numeric constant expression (11 milliseconds)
+- should execute simple cons expression (10 milliseconds)
+- should execute simple apply expression (5 milliseconds)
+- should execute simple lambda expression (7 milliseconds)
+- should execute simple call by value redex (10 milliseconds)
+- should execute connect function call (3 seconds, 45 milliseconds)
+- should execute multiple statement connect function call (3 seconds, 20 milliseconds)
+- should execute complex connect function call (24 seconds, 131 milliseconds)
+LanguageSpec:
+Lambda Parser
+- should parse simple string constant (1 millisecond)
+- should parse simple numeric constant (0 milliseconds)
+- should parse simple apply expression (1 millisecond)
+- should parse apply expression with parenthesis (1 millisecond)
+- should parse lambda expression (2 milliseconds)
+- should parse lambda expression with parenthesis (2 milliseconds)
+- should parse alternate form of lambda expression (3 milliseconds)
+- should parse alternate form of lambda expression with parenthesis (2 milliseconds)
+- should parse cons expression (2 milliseconds)
+- should parse cons expression directly (3 milliseconds)
+- should parse connect as variable (2 milliseconds)
+- should parse parseResponse as variable (2 milliseconds)
+Run completed in 30 seconds, 882 milliseconds.
+Total number of tests run: 21
+Suites: completed 3, aborted 0
+Tests: succeeded 21, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
